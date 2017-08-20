@@ -1,0 +1,18 @@
+<%= simple_form_for(@company) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :company_number %>
+    <%= f.input :name %>
+    <%= f.input :method_of_combination %>
+    <%= f.input :reported_as %>
+    <%= f.input :functional_currency %>
+    <%= f.input :hfm_entity_code %>
+    <%= f.input :hfm_tax_entity %>
+    <%= f.input :hfm_hv_code %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

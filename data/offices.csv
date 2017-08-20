@@ -1,0 +1,454 @@
+id,name,location_id
+1,Albany IL,1
+2,Altona MB,2
+3,Atchison KS,3
+4,Bal - Balsas - MaranhÃ£Âƒo,4
+5,Barcelona,5
+6,Beijing,6
+7,Bellevue OH,7
+8,Bilbao,8
+9,Bogota,9
+10,Brossard QC,10
+11,G3 Brossard QC,10
+12,Bucharest,11
+13,Budapest,260
+14,Buenos Aires,13
+15,Cairo,14
+16,Cairo IL,15
+17,Carter MT,16
+18,Bal - Cascavel - Silo,17
+19,Chester MT,18
+20,Chicago,19
+22,Council Bluffs IA Grain,21
+23,Council Bluffs IA OPD,21
+24,Crete NE,22
+25,Bal - Cruz Alta,23
+26,Bal - UruÃ£Â‡uÃ£Â - Cruzeta - Fab,24
+27,Danville IL,25
+28,Decatur AL,26
+29,Decatur IN Grain,27
+30,Decatur IN OPD,27
+31,Port of Decatur AL,26
+32,Bal - Dourados,28
+33,Emporia KS,29
+34,Escombreras,30
+35,Fairmont City IL,31
+36,Fort Saskatchewan AB,32
+37,Bal - Gaspar - Central,33
+38,Geneva,34
+39,Ciudad de Guatemala,35
+40,Hamburg,36
+41,Harrowby MB,37
+42,Helena AR,38
+43,PhuMy,39
+44,Homer IL,40
+45,Humboldt SK,41
+46,Bal - Suape - ÃƒÂ“leo,291
+47,Istanbul,43
+48,Bal - JaguarÃ£Â‰,44
+49,Johannesburg,45
+50,Jonesville LA,46
+51,Kintyre Flats MT,47
+52,Kruszwica,48
+53,La Coruna,49
+54,Levee MS,50
+55,Lima PER,51
+56,Linda MO,52
+57,Lisbon,53
+58,Longview WA,54
+59,Louisiana MO,55
+60,Bal - Lucas Do Rio Verde I,56
+61,Bal - LuziÃ£Â‚nia,105
+62,Manila,58
+63,Mannheim,59
+64,Bal - MaringÃ£Â I,100
+65,Mayersville MS,61
+66,McGregor IA,62
+67,McLeansboro IL,63
+68,Melbourne,64
+69,Mexico City,65
+70,Miami FL,66
+71,Moema - OrindiÃ£Âšva,67
+72,Mombasa,68
+73,Montevideo,70
+74,Montevideo - WTC,70
+75,Morristown IN Grain,72
+76,Morristown IN OPD,72
+77,Mumbai,73
+78,Nipawin SK,74
+79,Oakville ON,75
+80,Osceola AR,76
+81,Owensboro KY,77
+82,Bal - Passo Fundo I,78
+83,Usina Pedro Afonso,79
+84,Pine Bluff AR,80
+85,Bal - Ponta Grossa,81
+86,Portland OR,82
+87,Bal - Porto Nacional-tocantins,83
+88,Bal - Primavera Do Leste,84
+89,Ravenna,85
+90,Bal - Rio Verde,86
+91,Rushville IN Grain,87
+92,Bal - Atrium,88
+93,Shanghai,89
+94,Shawneetown IL,90
+95,Singapore,91
+96,Bunge Oils Outside Sales,92
+97,St. Louis MO,92
+98,St. Nazaire,93
+99,Bal - Tangara Da Serra-r Verde,94
+100,Tokyo,95
+101,Warsaw,96
+102,Waterloo IN,97
+103,White Plains NY,98
+104,G3 Winnipeg MB,99
+105,Winnipeg MB,99
+106,Bal - Lem,109
+107,Bal - RondonÃ£Â“polis,108
+109,Acopio  - Bandera,300
+110,Acopio  - Tancacha,164
+111,Acopio Cruce Guarani,318
+112,Acopio General Pinedo,301
+113,Adelaide,184
+114,Alecy - ACA San Lorenzo,
+115,Alecy - Arroyo Corto,
+116,Alecy - Buenos Aires,302
+117,Alecy - Lujan de Cuyo,
+118,Alecy - Quebracho,
+119,Alecy - Quequen,303
+120,Alecy - Tancacha,
+121,Alecy - Tandil,
+122,Almaty,258
+123,Asunción,319
+124,Augusta AR,122
+125,Avia Terai - Acopio,261
+126,BabÃ­a Blanca,305
+127,Bal - Alto Taquari,218
+128,Bal - Anapurus,219
+129,Bal - Araçatuba,220
+130,Bal - Balsas - Maranhã¿o,4
+131,Bal - Barcarena,222
+132,Bal - Bela Vista Ii,33
+133,Bal - Bom Jesus,223
+134,Bal - Bom Jesus De Goiãs,224
+135,Bal - Brasãlia,276
+136,Bal – Cachoeirinha,225
+137,Bal - Campo Novo Do Parecis,226
+138,Bal - Campo Verde I,227
+139,Bal - Campos De Jã¿lio,228
+140,Bal - Campos Lindos,229
+141,Bal - Canarana,230
+142,Bal - Cenesp,231
+143,Bal - Contagem,232
+144,Bal - Cristalina - Souza Lima,277
+145,Bal - Diamantino I,233
+146,Bal - Duque De Caxias,234
+147,Bal - Formosa,235
+148,Bal - Formosa Do R. Preto Ii,236
+149,Bal - Formosa Do Rio Preto I,236
+150,Bal - Gaspar,33
+151,Bal - Guaraã - To,238
+152,Bal - Gurupi - Tocantins,240
+153,Bal - Ipojuca - Moinho,291
+154,Bal - Itaituba,242
+155,Bal - Jaguarã¿,44
+156,BAL - JAGUARÉ,44
+157,Bal - Jataã,244
+158,Bal - Luziã¿nia,105
+159,Bal - Manaus,245
+160,Bal - Maracaju I,246
+161,Bal - Maringã I,100
+162,Bal - Montividiu Ii,248
+163,Bal - Nova Mutum Fabrica,249
+164,Bal - Nova Mutum Ii,249
+165,Bal - Ourinhos,250
+166,Bal - Ouro Verde Ii,278
+167,Bal - Paranaguã (armaz.),252
+168,Bal - Paranaguã (porto),252
+169,Bal - Ponta Grossa - Moinho,81
+170,Bal - Porto Alegre Do Norte,253
+171,Bal - Porto Franco,254
+172,Bal - Querã¿ncia,255
+173,Bal - Rio De Janeiro - Cd,256
+174,Bal - Rio De Janeiro - M.flum.,256
+175,Bal - Rio Grande Ii,279
+176,Bal - Rondonã¿polis,108
+177,Bal - Rondonã¿polis -transporte,108
+178,Bal - Rosãrio - Correntina,280
+179,Bal - S.fco Do Sul,281
+180,Bal - Sã¿o Domingos De Azeitã¿o,282
+181,Bal - Sã¿o Gabriel,283
+182,Bal - Sã¿o Gabriel Oeste I,284
+183,Bal - Sã¿o Luis,285
+184,Bal - Salvador Ii,286
+185,Bal - Santa Luzia - Moinho,287
+186,Bal - Santos - Moinho,288
+187,Bal - Santos Exp,288
+188,BAL - SÃO PAULO CORPORATIVO,88
+189,Bal - Sapezal,289
+190,Bal - Sinop - Faturamento,290
+191,Bal - Sorriso,107
+192,Bal - Sorriso Barreiro,107
+193,Bal - Suape - Ã¿leo,291
+194,Bal - Suape - Margarina,291
+195,Bal - Suape - Óleo,291
+196,Bal - Tapurah I,292
+197,Bal - Tatuã,293
+198,Bal - Uberaba - Mg,294
+199,Bal - Uruã¿uã - Cruzeta - Fab,295
+200,Bal - Uruã¿uã - Nova Santa Rosa,295
+201,Bal - Vitã¿ria,296
+202,Bangalore,169
+203,Bangkok,170
+204,Barcelona Hub,5
+205,Barcelona Moll (Plant),5
+206,Bedford NS,145
+207,Bhopal,171
+208,Book LA,46
+209,Boothspoint TN,121
+210,Bradley IL Corp,259
+211,Bradley IL Oils Refinery,259
+212,Bruck,172
+213,Brussels,173
+214,Brzeg,150
+215,Bucuresti,11
+216,Budapest R&D,260
+217,Bunbury,151
+218,Bundi,174
+219,Buzau,175
+220,Caruthersville MO,123
+221,Chaco,261
+222,Chandigarh,176
+223,Chennai,177
+224,Cleveland OH,208
+225,Cochin,178
+226,Complejo Industrial Puerto General San Martin,304
+227,Complejo Industrial San Jeronimo Sud,199
+228,Delhi,179
+229,Delphos OH,124
+230,Deposito Curuguaty,320
+231,Des Arc AR,125
+232,Desoto Landing AR,313
+233,Destrehan LA Elevator,262
+234,Destrehan LA OPD,262
+235,Dnepropetrovsk,152
+236,Dobrich,263
+237,Dolinka,
+238,Dolinska,
+239,Dongguan,264
+240,Dubai,
+241,East Hannibal IL,103
+242,Edmonton P AB,265
+243,Edmonton S AB,265
+244,Ekaterinburg,180
+245,Encarnación,321
+246,Expat - Moscow,
+247,Expat-Canada,
+248,Expat-Geneva Switzerland,
+249,Expat-Mexico,
+250,Eysk,
+251,Fertilizantes - Campana,302
+252,Fertilizantes - Grumbein,305
+253,Fertilizantes - Guide,306
+254,Fertilizantes - Ramallo,307
+255,Fertilizantes - Rosario,308
+256,Fertilizantes - San Nicolas,
+257,Fertilizantes - TFASA - Sta Fe,304
+258,Fertilizantes - Tres Arroyos,
+259,Fertilizantes-TFASA - Santa Fe,304
+260,FertImport  Buenos Aires,305
+261,FertImport  San Lorenzo,309
+262,Fertimport Bahia Blanca,305
+263,Fertimport Buenos Aires,305
+264,Fertimport San Lorenzo,309
+265,FertImport San Nicolas,
+266,Fort Worth TX,126
+267,Fountain Bluff IL,266
+268,Ftp - Paranaguã,252
+269,Ftp - Recife,315
+270,Ftp - Rio Grande,279
+271,Ftp - Santos,288
+272,Ftp - Vitã¿ria,296
+273,Fundaã¿ã¿o  Bunge,
+274,G3 Quebec City QC,149
+275,G3 Ste Rosalie QC,267
+276,General Paz - Acopio,310
+277,Ghaziabad,181
+278,Greenville MS,127
+279,Hamilton ON,146
+280,Hernandarias,153
+281,Hickman KY,128
+282,Hilter,182
+283,Ho Chi Minh,268
+284,Huffman AR,269
+285,Hyderabad,183
+286,Iasi,
+287,Indianapolis IN,209
+288,Izmir,185
+289,Jakarta,154
+290,Kandla,
+291,Kankakee IL,129
+292,Kankakee IL - Extrusion,129
+293,Karczew,155
+294,Kearny NJ,210
+295,Khmelnytskyi,186
+296,Kiev,186
+297,Kolkata,187
+298,Kolodeznoe,270
+299,La Celestina - Sta FÃ©,322
+300,La Espiga,271
+301,La Pampa,156
+302,Lagrange MO,272
+303,Lake Providence LA,130
+304,Lehliu,157
+305,Lettsworth LA,131
+306,Lishui,158
+307,London,110
+308,Mandi,159
+309,Martfu,188
+310,Meeker's Landing IA,274
+311,Memphis TN,211
+312,Mendoza,
+313,Mermentau LA,132
+314,Modesto CA,212
+315,Moema - Orindiã¿va,314
+316,Mohali,
+317,Monserrat,
+318,Montreal QC,213
+319,Moscow,189
+320,N/A,
+321,Nanjing,
+322,Nikolaev,160
+323,Novorossisk,190
+324,Obregon,65
+325,Odessa,
+326,Oficina Ciudad del Este,316
+327,Oradea,
+328,P.G.S.M. - RefinerÃ­a,304
+329,Piquete Cabado,161
+330,Poltava,162
+331,Poplar Bluff MO,133
+332,Porto Corsini,
+333,Prosyana,
+334,Puerto - TFASA - Santa Fe,304
+335,Puerto Asuncion,319
+336,Puerto Dos Fronteras,316
+337,Puerto San MartÃ­n,304
+338,Puerto San MartÃ­n - Puerto,304
+339,Pune,191
+340,Queretaro,
+341,Queretaro Mexico,
+342,Raisio,
+343,Rajpura,195
+344,Ramallo - Puerto,307
+345,Ramallo Crushing,307
+346,Richmond BC,147
+347,Rizhao,163
+348,Rosario - Guide,308
+349,Rosario - Oficina,308
+350,Rose Hill NC,134
+351,Rosedale MS,214
+352,Rostov,196
+353,Rostov-on-Don,
+354,Rotterdam,197
+355,Rushville IN,87
+356,Rushville IN - Lotus Elevator,87
+357,San Andres,198
+358,San Cristobal,203
+359,San Ignacio,202
+360,San Jeronimo,199
+361,San Jeronimo - Refineria,199
+362,San Jorge,
+363,Sandston VA,135
+364,Sant Joan,
+365,Sant Just Desvern,
+366,Santa Cruz de la Sierra,
+367,Sarata,
+368,Saratov,205
+369,Sofia,200
+370,Somerset NJ,215
+371,SSP Ramallo,307
+372,St. Joseph LA,275
+373,St. Petersburg,
+374,Stavropol,204
+375,Subic,
+376,Swinoujscie,
+377,T6 - Puerto,304
+378,Taixing,
+379,Tallulah Port LA,115
+380,Tancacha,164
+381,Tancacha - Lecitina,
+382,Tatabanya,
+383,Terminal 6,304
+384,Terminal Bahia Blanca,311
+385,Thrace,
+386,Tianjin,165
+387,Tmg - Guarujã,323
+388,Tmg - Santos,288
+389,Traian,166
+390,Trichy,
+391,Trostyanets,
+392,Tucuman - Acopio,312
+393,Usina Frutal,237
+394,Usina Guariroba,239
+395,Usina Itapagipe - Itapagipe,243
+396,Usina Monte Verde,247
+397,Usina Ouroeste,251
+398,Usina Sta Juliana,297
+399,Vicksburg MS,104
+400,Vidalia LA,136
+401,Volgograd,206
+402,Vygoda,
+403,Wainwright AB,148
+404,Warsaw Mathmatical Institute,96
+405,Warsaw NC,137
+406,Warszawa,167
+407,Washington DC,138
+408,West Memphis AR,143
+409,Woodland CA,144
+410,Work at Home,
+411,Worthington IN,139
+412,Yazoo City MS,140
+413,Bal - Uruã¿uã - Nova Santa Rosa,295
+414,Bal - Vianã¿polis,298
+415,Bathinda,193
+416,Cartagena,30
+417,Cincinnati OH,141
+418,Complejo Industrial Campana,302
+419,Ftp - Salvador,286
+420,La Paz,
+421,Little Rock AR,142
+422,Marion OH,216
+423,Medan,168
+424,North Las Vegas NV,217
+425,Ravenna Diesel,
+426,Sangrur,201
+427,Voronezh,207
+428,Acopio Naranjal,317
+429,Agri-Fulton IL,257
+430,Ambala,192
+431,Asunción,
+432,Bal - Araguari,221
+433,Bal - Cristalina,277
+434,Bal - Ilhã¿us - Comã¿rcio,241
+435,Bal - Paraã¿na,252
+436,Bal - Roda Velha - S Desidã¿rio,299
+437,Milan,194
+438,Guatemala City,35
+439,Lishui-BCAS,273
+440,Lishui-BNAL,273
+441,Oficinas Buenos Aires,302
+442,Prosjanaya,
+443,Quebec City QC,149
+444,BarcelonaHUB,
+445,BalAraatuba,
+446,BALRIOGRANDEII,
+447,TMGGUARUJ,
+448,MOEMAORINDIVA,
+449,FTPSANTOS,
+450,TMGSANTOS,
+451,BALBOMJESUS,
+452,BALTATU,
+453,FUNDAOBUNGE,
+454,USINAITAPAGIPEITAPAGIPE,
+455,BALATRIUM,

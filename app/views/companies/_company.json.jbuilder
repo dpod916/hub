@@ -1,0 +1,2 @@
+json.extract! company, :id, :company_number, :name, :method_of_combination, :reported_as, :functional_currency, :hfm_entity_code, :hfm_tax_entity, :hfm_hv_code, :created_at, :updated_at
+json.url company_url(company, format: :json)

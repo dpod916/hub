@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Operating Companies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @operating_companies.each do |operating_company| %>
+      <tr>
+        <td><%= operating_company.name %></td>
+        <td><%= link_to 'Show', operating_company %></td>
+        <td><%= link_to 'Edit', edit_operating_company_path(operating_company) %></td>
+        <td><%= link_to 'Destroy', operating_company, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Operating Company', new_operating_company_path %>

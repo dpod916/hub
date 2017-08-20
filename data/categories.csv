@@ -1,0 +1,9 @@
+id,name,matter_type_id,created_at,updated_at,type_name
+1,Internal,2,2017-02-20 22:38:56.431413,2017-02-20 22:38:56.431413,InternalMatter
+2,Regulatory,2,2017-02-20 22:38:56.942413,2017-02-20 22:38:56.942413,RegulatoryMatter
+3,Agreements,1,2017-02-20 22:38:57.386413,2017-02-20 22:38:57.386413,Agreement
+4,Disputes,1,2017-02-20 22:38:57.827413,2017-02-20 22:38:57.827413,Dispute
+5,Projects,1,2017-02-20 22:38:58.263413,2017-02-20 22:38:58.263413,LegalProject
+6,New Business Initiatives,1,2017-02-20 22:38:58.683413,2017-02-20 22:38:58.683413,LegalBusiness
+7,Projects,2,2017-02-20 22:38:59.104413,2017-02-20 22:38:59.104413,ComplianceProject
+8,New Business Initiatives,2,2017-02-20 22:38:59.594413,2017-02-20 22:38:59.594413,ComplianceBusiness
