@@ -97,7 +97,7 @@ gem 'jquery-datatables-rails'
 gem 'mini_magick'
 
 gem 'public_activity'
-gem 'link_thumbnailer'
+# gem 'link_thumbnailer'
 gem 'activity_notification'
 gem 'rolify'
 
