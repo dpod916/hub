@@ -1,0 +1,5 @@
+rails g scaffold legal_entity lei:string legal_name:string business_register_entity_id:string legal_jurisdiction:string legal_form:string entity_status:string
+rails g scaffold address first_line:string second_line:string city:string region:string country:string postal_code:string type:string legal_entity:references
+rails g scaffold local_operating_unit lei:string name:string record_count:integer content_data:string last_attempted_download_date:date_time last_successful_download_date:date_time last_valid_download_date:date_time
+rails g scaffold registration initial_registration_date:date_time last_update_date:date_time registration_status:string next_renewal_date:date_time local_operating_unit:references validation_sources:string legal_entity:references
+

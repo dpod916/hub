@@ -1,0 +1,47 @@
+<%= form_with(model: legal_entity, local: true) do |form| %>
+  <% if legal_entity.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(legal_entity.errors.count, "error") %> prohibited this legal_entity from being saved:</h2>
+
+      <ul>
+      <% legal_entity.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :lei %>
+    <%= form.text_field :lei, id: :legal_entity_lei %>
+  </div>
+
+  <div class="field">
+    <%= form.label :legal_name %>
+    <%= form.text_field :legal_name, id: :legal_entity_legal_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :business_register_entity_id %>
+    <%= form.text_field :business_register_entity_id, id: :legal_entity_business_register_entity_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :legal_jurisdiction %>
+    <%= form.text_field :legal_jurisdiction, id: :legal_entity_legal_jurisdiction %>
+  </div>
+
+  <div class="field">
+    <%= form.label :legal_form %>
+    <%= form.text_field :legal_form, id: :legal_entity_legal_form %>
+  </div>
+
+  <div class="field">
+    <%= form.label :entity_status %>
+    <%= form.text_field :entity_status, id: :legal_entity_entity_status %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

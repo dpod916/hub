@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Local Operating Units</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Lei</th>
+      <th>Name</th>
+      <th>Record count</th>
+      <th>Content data</th>
+      <th>Last attempted download date</th>
+      <th>Last successful download date</th>
+      <th>Last valid download date</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @local_operating_units.each do |local_operating_unit| %>
+      <tr>
+        <td><%= local_operating_unit.lei %></td>
+        <td><%= local_operating_unit.name %></td>
+        <td><%= local_operating_unit.record_count %></td>
+        <td><%= local_operating_unit.content_data %></td>
+        <td><%= local_operating_unit.last_attempted_download_date %></td>
+        <td><%= local_operating_unit.last_successful_download_date %></td>
+        <td><%= local_operating_unit.last_valid_download_date %></td>
+        <td><%= link_to 'Show', local_operating_unit %></td>
+        <td><%= link_to 'Edit', edit_local_operating_unit_path(local_operating_unit) %></td>
+        <td><%= link_to 'Destroy', local_operating_unit, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Local Operating Unit', new_local_operating_unit_path %>

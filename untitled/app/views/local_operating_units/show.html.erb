@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Lei:</strong>
+  <%= @local_operating_unit.lei %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @local_operating_unit.name %>
+</p>
+
+<p>
+  <strong>Record count:</strong>
+  <%= @local_operating_unit.record_count %>
+</p>
+
+<p>
+  <strong>Content data:</strong>
+  <%= @local_operating_unit.content_data %>
+</p>
+
+<p>
+  <strong>Last attempted download date:</strong>
+  <%= @local_operating_unit.last_attempted_download_date %>
+</p>
+
+<p>
+  <strong>Last successful download date:</strong>
+  <%= @local_operating_unit.last_successful_download_date %>
+</p>
+
+<p>
+  <strong>Last valid download date:</strong>
+  <%= @local_operating_unit.last_valid_download_date %>
+</p>
+
+<%= link_to 'Edit', edit_local_operating_unit_path(@local_operating_unit) %> |
+<%= link_to 'Back', local_operating_units_path %>

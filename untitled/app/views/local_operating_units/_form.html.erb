@@ -1,0 +1,52 @@
+<%= form_with(model: local_operating_unit, local: true) do |form| %>
+  <% if local_operating_unit.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(local_operating_unit.errors.count, "error") %> prohibited this local_operating_unit from being saved:</h2>
+
+      <ul>
+      <% local_operating_unit.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :lei %>
+    <%= form.text_field :lei, id: :local_operating_unit_lei %>
+  </div>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :local_operating_unit_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :record_count %>
+    <%= form.number_field :record_count, id: :local_operating_unit_record_count %>
+  </div>
+
+  <div class="field">
+    <%= form.label :content_data %>
+    <%= form.text_field :content_data, id: :local_operating_unit_content_data %>
+  </div>
+
+  <div class="field">
+    <%= form.label :last_attempted_download_date %>
+    <%= form.text_field :last_attempted_download_date, id: :local_operating_unit_last_attempted_download_date %>
+  </div>
+
+  <div class="field">
+    <%= form.label :last_successful_download_date %>
+    <%= form.text_field :last_successful_download_date, id: :local_operating_unit_last_successful_download_date %>
+  </div>
+
+  <div class="field">
+    <%= form.label :last_valid_download_date %>
+    <%= form.text_field :last_valid_download_date, id: :local_operating_unit_last_valid_download_date %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

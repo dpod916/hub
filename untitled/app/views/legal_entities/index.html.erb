@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Legal Entities</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Lei</th>
+      <th>Legal name</th>
+      <th>Business register entity</th>
+      <th>Legal jurisdiction</th>
+      <th>Legal form</th>
+      <th>Entity status</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @legal_entities.each do |legal_entity| %>
+      <tr>
+        <td><%= legal_entity.lei %></td>
+        <td><%= legal_entity.legal_name %></td>
+        <td><%= legal_entity.business_register_entity_id %></td>
+        <td><%= legal_entity.legal_jurisdiction %></td>
+        <td><%= legal_entity.legal_form %></td>
+        <td><%= legal_entity.entity_status %></td>
+        <td><%= link_to 'Show', legal_entity %></td>
+        <td><%= link_to 'Edit', edit_legal_entity_path(legal_entity) %></td>
+        <td><%= link_to 'Destroy', legal_entity, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Legal Entity', new_legal_entity_path %>

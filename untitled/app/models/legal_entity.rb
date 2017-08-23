@@ -1,0 +1,2 @@
+class LegalEntity < ApplicationRecord
+end

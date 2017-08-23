@@ -1,0 +1,245 @@
+    #GLEIF Concatenated File
+<lei:LEIData xmlns:lei="http://www.leiroc.org/data/schema/leidata/2014" xmlns:gleif="http://www.gleif.org/concatenated-file/header-extension/1.1">
+  <lei:LEIHeader>
+    <lei:ContentDate>2017-08-23T09:00:01.411670+00:00</lei:ContentDate>
+    <lei:FileContent>COU_FULL_PUBLISHED</lei:FileContent>
+    <lei:RecordCount>546304</lei:RecordCount>
+    <lei:Extension>
+      <gleif:LOUSources>
+        <gleif:LOUSource>
+          <gleif:LOULEI>5493001KJTIIGC8Y1R12</gleif:LOULEI>
+          <gleif:LOUName>Bloomberg Finance L.P. (Bloomberg)</gleif:LOUName>
+          <gleif:RecordCount>2095</gleif:RecordCount>
+          <gleif:ContentDate>2017-08-22T18:25:02.691656-04:00</gleif:ContentDate>
+          <gleif:LastAttemptedDownloadDate>2017-08-23T09:00:01.411670+00:00</gleif:LastAttemptedDownloadDate>
+          <gleif:LastSuccessfulDownloadDate>2017-08-23T09:00:01.744160+00:00</gleif:LastSuccessfulDownloadDate>
+          <gleif:LastValidDownloadDate>2017-08-23T09:00:01.744160+00:00</gleif:LastValidDownloadDate>
+        </gleif:LOUSource>
+      </gleif:LOUSources>
+    </lei:Extension>
+  </lei:LEIHeader>
+
+
+local_operating_unit
+  lei
+  name
+  record_count
+  content_data
+  last_attempted_download_date
+  last_successful_download_date
+  last_valid_download_date
+
+
+  <lei:LEIRecords>
+    <lei:LEIRecord>
+      <lei:LEI>3912005JSP0OEI701869</lei:LEI>
+      <lei:Entity>
+        <lei:LegalName>Ostangler Brandgilde VVaG</lei:LegalName>
+        <lei:LegalAddress>
+          <lei:Line1>Flensburger Straße 5</lei:Line1>
+          <lei:City>Kappeln</lei:City>
+          <lei:Region>DE-SH</lei:Region>
+          <lei:Country>DE</lei:Country>
+          <lei:PostalCode>24376</lei:PostalCode>
+        </lei:LegalAddress>
+        <lei:HeadquartersAddress>
+          <lei:Line1>Flensburger Straße 5</lei:Line1>
+          <lei:City>Kappeln</lei:City>
+          <lei:Region>DE-SH</lei:Region>
+          <lei:Country>DE</lei:Country>
+          <lei:PostalCode>24376</lei:PostalCode>
+        </lei:HeadquartersAddress>
+        <lei:BusinessRegisterEntityID register="RA000240">HRB 158</lei:BusinessRegisterEntityID>
+        <lei:LegalJurisdiction>DE</lei:LegalJurisdiction>
+        <lei:LegalForm>Versicherungsverein auf Gegenseitigkeit</lei:LegalForm>
+        <lei:EntityStatus>ACTIVE</lei:EntityStatus>
+      </lei:Entity>
+      <lei:Registration>
+        <lei:InitialRegistrationDate>2015-01-28T17:27:54.217+01:00</lei:InitialRegistrationDate>
+        <lei:LastUpdateDate>2017-08-21T09:39:14.938+02:00</lei:LastUpdateDate>
+        <lei:RegistrationStatus>ISSUED</lei:RegistrationStatus>
+        <lei:NextRenewalDate>2018-01-28T17:27:54.217+01:00</lei:NextRenewalDate>
+        <lei:ManagingLOU>39120001KULK7200U106</lei:ManagingLOU>
+        <lei:ValidationSources>FULLY_CORROBORATED</lei:ValidationSources>
+      </lei:Registration>
+    </lei:LEIRecord>
+    <lei:LEIRecord>
+
+    legal_entity
+    lei
+    legal_name
+
+    address
+    line1
+    city
+    region
+    country
+    postalcode
+    type (legal/headquarter)
+
+    business_register_entity_id (register)
+    legal_jurisdiction
+    legal_form
+    entity_status
+
+    lei_registraion
+    initiail_registration_date
+    last_update_date
+    registration_status
+    next_renewal_Date
+    local_operating_unit_id
+    validation_sources
+
+
+    #GLEIF Concatenated File-lei2
+<lei:LEIData xmlns:gleif="http://www.gleif.org/concatenated-file/header-extension/2.0" xmlns:lei="http://www.gleif.org/data/schema/leidata/2016">
+  <lei:LEIHeader>
+    <lei:ContentDate>2017-08-23T09:00:01+00:00</lei:ContentDate>
+    <lei:FileContent>GLEIF_FULL_PUBLISHED</lei:FileContent>
+    <lei:RecordCount>546091</lei:RecordCount>
+    <lei:Extension>
+    </lei:Extension>
+  </lei:LEIHeader>
+  <gleif:Sources>
+    <gleif:Source>
+      <gleif:ContentDate>2017-08-22T12:47:51Z</gleif:ContentDate>
+      <gleif:Originator>029200067A7K6CH0H586</gleif:Originator>
+      <gleif:RecordCount>234</gleif:RecordCount>
+    </gleif:Source>
+
+  <lei:LEIRecords>
+    <lei:LEIRecord>
+      <lei:LEI>029200137F2K8AH5C573</lei:LEI>
+      <lei:Entity>
+        <lei:LegalName xml:lang="en">CAPITAL ASSETS LIMITED</lei:LegalName>
+        <lei:OtherEntityNames>
+          <lei:OtherEntityName xml:lang="fr" type="ALTERNATIVE_LANGUAGE_LEGAL_NAME">CAPITAL ASSETS LIMITED</lei:OtherEntityName>
+        </lei:OtherEntityNames>
+        <lei:LegalAddress xml:lang="en">
+          <lei:FirstAddressLine>9TH FLOOR BOOKSHOP HOUSE, 50/52 BROAD STREET</lei:FirstAddressLine>
+          <lei:AdditionalAddressLine>P.O. BOX 702 LAGOS</lei:AdditionalAddressLine>
+          <lei:City>LAGOS</lei:City>
+          <lei:Region>NG-LA</lei:Region>
+          <lei:Country>NG</lei:Country>
+          <lei:PostalCode>23401</lei:PostalCode>
+        </lei:LegalAddress>
+        <lei:HeadquartersAddress xml:lang="en">
+          <lei:FirstAddressLine>9TH FLOOR BOOKSHOP HOUSE, 50/52 BROAD STREET</lei:FirstAddressLine>
+          <lei:AdditionalAddressLine>P.O. BOX 702 LAGOS</lei:AdditionalAddressLine>
+          <lei:City>LAGOS</lei:City>
+          <lei:Region>NG-LA</lei:Region>
+          <lei:Country>NG</lei:Country>
+        </lei:HeadquartersAddress>
+        <lei:OtherAddresses>
+          <lei:OtherAddress xml:lang="fr" type="ALTERNATIVE_LANGUAGE_HEADQUARTERS_ADDRESS">
+            <lei:FirstAddressLine>9TH FLOOR BOOKSHOP HOUSE, 50/52 BROAD STREET</lei:FirstAddressLine>
+            <lei:AdditionalAddressLine>P.O. BOX 702 LAGOS</lei:AdditionalAddressLine>
+            <lei:City>LAGOS</lei:City>
+            <lei:Region>NG-LA</lei:Region>
+            <lei:Country>NG</lei:Country>
+            <lei:PostalCode>23401</lei:PostalCode>
+          </lei:OtherAddress>
+        </lei:OtherAddresses>
+        <lei:RegistrationAuthority>
+          <lei:RegistrationAuthorityID>RA000469</lei:RegistrationAuthorityID>
+          <lei:RegistrationAuthorityEntityID>RC286096</lei:RegistrationAuthorityEntityID>
+        </lei:RegistrationAuthority>
+        <lei:LegalJurisdiction>NG-LA</lei:LegalJurisdiction>
+        <lei:LegalForm>
+          <lei:EntityLegalFormCode>8888</lei:EntityLegalFormCode>
+          <lei:OtherLegalForm>LIMITED</lei:OtherLegalForm>
+        </lei:LegalForm>
+        <lei:EntityStatus>ACTIVE</lei:EntityStatus>
+      </lei:Entity>
+      <lei:Registration>
+        <lei:InitialRegistrationDate>2014-11-06T00:00:00Z</lei:InitialRegistrationDate>
+        <lei:LastUpdateDate>2017-03-27T16:00:00Z</lei:LastUpdateDate>
+        <lei:RegistrationStatus>ISSUED</lei:RegistrationStatus>
+        <lei:NextRenewalDate>2017-11-06T00:00:00Z</lei:NextRenewalDate>
+        <lei:ManagingLOU>029200067A7K6CH0H586</lei:ManagingLOU>
+        <lei:ValidationSources>FULLY_CORROBORATED</lei:ValidationSources>
+        <lei:ValidationAuthority>
+          <lei:ValidationAuthorityID>RA000469</lei:ValidationAuthorityID>
+        </lei:ValidationAuthority>
+      </lei:Registration>
+    </lei:LEIRecord>
+
+
+    #GLEIF RR
+<rr:RelationshipData xmlns:gleif="http://www.gleif.org/concatenated-file/header-extension/2.0" xmlns:rr="http://www.gleif.org/data/schema/rr/2016">
+  <rr:Header>
+    <rr:ContentDate>2017-08-23T09:00:01+00:00</rr:ContentDate>
+    <rr:FileContent>GLEIF_FULL_PUBLISHED</rr:FileContent>
+    <rr:RecordCount>23519</rr:RecordCount>
+    <rr:Extension>
+    </rr:Extension>
+  </rr:Header>
+
+  <gleif:Sources>
+    <gleif:Source>
+      <gleif:ContentDate>2017-08-23T02:34:11.704Z</gleif:ContentDate>
+      <gleif:Originator>EVK05KS7XY1DEII3R011</gleif:Originator>
+      <gleif:RecordCount>9234</gleif:RecordCount>
+    </gleif:Source>
+  </gleif:Sources>
+
+  <rr:RelationshipRecords>
+    <rr:RelationshipRecord>
+      <rr:Relationship>
+        <rr:StartNode>
+          <rr:NodeID>549300NOJVZRPQGXQV73</rr:NodeID>
+          <rr:NodeIDType>LEI</rr:NodeIDType>
+        </rr:StartNode>
+        <rr:EndNode>
+          <rr:NodeID>213800VTY9MZALAB1A25</rr:NodeID>
+          <rr:NodeIDType>LEI</rr:NodeIDType>
+        </rr:EndNode>
+        <rr:RelationshipType>IS_DIRECTLY_CONSOLIDATED_BY</rr:RelationshipType>
+        <rr:RelationshipPeriods>
+          <rr:RelationshipPeriod>
+            <rr:StartDate>2017-08-11T00:00:00Z</rr:StartDate>
+            <rr:PeriodType>ACCOUNTING_PERIOD</rr:PeriodType>
+          </rr:RelationshipPeriod>
+          <rr:RelationshipPeriod>
+            <rr:StartDate>2017-08-11T00:00:00Z</rr:StartDate>
+            <rr:PeriodType>RELATIONSHIP_PERIOD</rr:PeriodType>
+          </rr:RelationshipPeriod>
+          <rr:RelationshipPeriod>
+            <rr:StartDate>2017-08-11T00:00:00Z</rr:StartDate>
+            <rr:PeriodType>DOCUMENT_FILING_PERIOD</rr:PeriodType>
+          </rr:RelationshipPeriod>
+        </rr:RelationshipPeriods>
+        <rr:RelationshipStatus>ACTIVE</rr:RelationshipStatus>
+        <rr:RelationshipQualifiers>
+          <rr:RelationshipQualifier>
+            <rr:QualifierDimension>ACCOUNTING_STANDARD</rr:QualifierDimension>
+            <rr:QualifierCategory>IFRS</rr:QualifierCategory>
+          </rr:RelationshipQualifier>
+        </rr:RelationshipQualifiers>
+      </rr:Relationship>
+      <rr:Registration>
+        <rr:InitialRegistrationDate>2013-09-27T03:06:53.053Z</rr:InitialRegistrationDate>
+        <rr:LastUpdateDate>2016-06-27T15:04:24.623Z</rr:LastUpdateDate>
+        <rr:RegistrationStatus>PUBLISHED</rr:RegistrationStatus>
+        <rr:NextRenewalDate>2017-08-25T00:00:00Z</rr:NextRenewalDate>
+        <rr:ManagingLOU>213800D1EI4B9WTWWD28</rr:ManagingLOU>
+        <rr:ValidationSources>ENTITY_SUPPLIED_ONLY</rr:ValidationSources>
+        <rr:ValidationDocuments>ACCOUNTS_FILING</rr:ValidationDocuments>
+      </rr:Registration>
+    </rr:RelationshipRecord>
+
+#GLEIF REPEX
+<repex:ReportingExceptionData xmlns:gleif="http://www.gleif.org/concatenated-file/header-extension/2.0" xmlns:repex="http://www.gleif.org/data/schema/repex/2016">
+  <repex:Header>
+    <repex:ContentDate>2017-08-23T09:00:01+00:00</repex:ContentDate>
+    <repex:FileContent>GLEIF_FULL_PUBLISHED</repex:FileContent>
+    <repex:RecordCount>180533</repex:RecordCount>
+    <repex:Extension>
+    </repex:Extension>
+  </repex:Header>
+  <repex:ReportingExceptions>
+    <repex:Exception>
+      <repex:LEI>213800EGHXWN2NFAEG65</repex:LEI>
+      <repex:ExceptionCategory>ULTIMATE_ACCOUNTING_CONSOLIDATION_PARENT</repex:ExceptionCategory>
+      <repex:ExceptionReason>NON_CONSOLIDATING</repex:ExceptionReason>
+    </repex:Exception>

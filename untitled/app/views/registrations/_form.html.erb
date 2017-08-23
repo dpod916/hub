@@ -1,0 +1,52 @@
+<%= form_with(model: registration, local: true) do |form| %>
+  <% if registration.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(registration.errors.count, "error") %> prohibited this registration from being saved:</h2>
+
+      <ul>
+      <% registration.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :initial_registration_date %>
+    <%= form.text_field :initial_registration_date, id: :registration_initial_registration_date %>
+  </div>
+
+  <div class="field">
+    <%= form.label :last_update_date %>
+    <%= form.text_field :last_update_date, id: :registration_last_update_date %>
+  </div>
+
+  <div class="field">
+    <%= form.label :registration_status %>
+    <%= form.text_field :registration_status, id: :registration_registration_status %>
+  </div>
+
+  <div class="field">
+    <%= form.label :next_renewal_date %>
+    <%= form.text_field :next_renewal_date, id: :registration_next_renewal_date %>
+  </div>
+
+  <div class="field">
+    <%= form.label :local_operating_unit_id %>
+    <%= form.text_field :local_operating_unit_id, id: :registration_local_operating_unit_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :validation_sources %>
+    <%= form.text_field :validation_sources, id: :registration_validation_sources %>
+  </div>
+
+  <div class="field">
+    <%= form.label :legal_entity_id %>
+    <%= form.text_field :legal_entity_id, id: :registration_legal_entity_id %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

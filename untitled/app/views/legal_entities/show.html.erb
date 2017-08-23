@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Lei:</strong>
+  <%= @legal_entity.lei %>
+</p>
+
+<p>
+  <strong>Legal name:</strong>
+  <%= @legal_entity.legal_name %>
+</p>
+
+<p>
+  <strong>Business register entity:</strong>
+  <%= @legal_entity.business_register_entity_id %>
+</p>
+
+<p>
+  <strong>Legal jurisdiction:</strong>
+  <%= @legal_entity.legal_jurisdiction %>
+</p>
+
+<p>
+  <strong>Legal form:</strong>
+  <%= @legal_entity.legal_form %>
+</p>
+
+<p>
+  <strong>Entity status:</strong>
+  <%= @legal_entity.entity_status %>
+</p>
+
+<%= link_to 'Edit', edit_legal_entity_path(@legal_entity) %> |
+<%= link_to 'Back', legal_entities_path %>

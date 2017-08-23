@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Initial registration date:</strong>
+  <%= @registration.initial_registration_date %>
+</p>
+
+<p>
+  <strong>Last update date:</strong>
+  <%= @registration.last_update_date %>
+</p>
+
+<p>
+  <strong>Registration status:</strong>
+  <%= @registration.registration_status %>
+</p>
+
+<p>
+  <strong>Next renewal date:</strong>
+  <%= @registration.next_renewal_date %>
+</p>
+
+<p>
+  <strong>Local operating unit:</strong>
+  <%= @registration.local_operating_unit %>
+</p>
+
+<p>
+  <strong>Validation sources:</strong>
+  <%= @registration.validation_sources %>
+</p>
+
+<p>
+  <strong>Legal entity:</strong>
+  <%= @registration.legal_entity %>
+</p>
+
+<%= link_to 'Edit', edit_registration_path(@registration) %> |
+<%= link_to 'Back', registrations_path %>

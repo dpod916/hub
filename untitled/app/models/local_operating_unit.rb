@@ -1,0 +1,2 @@
+class LocalOperatingUnit < ApplicationRecord
+end
