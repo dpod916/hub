@@ -115,7 +115,8 @@ gem 'paperclip'
 gem 'simple_form'
 gem 'summernote-rails'
 gem 'webpacker'
-
+gem 'geocoder'
+gem 'google_places'
 gem 'geonames'
 gem 'sqlite3'
 

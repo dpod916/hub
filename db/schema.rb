@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 30190903160853) do
+ActiveRecord::Schema.define(version: 30190903160855) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -277,6 +277,19 @@ ActiveRecord::Schema.define(version: 30190903160853) do
     t.string "address"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.float "latitude"
+    t.float "longitude"
+    t.string "state_code"
+    t.string "postal_code"
+    t.string "country_code"
+    t.string "reference"
+    t.string "vicinity"
+    t.string "name"
+    t.string "icon"
+    t.string "formatted_phone_number"
+    t.string "formatted_address"
+    t.string "rating"
+    t.string "url"
   end
 
   create_table "mailboxer_conversation_opt_outs", id: :serial, force: :cascade do |t|

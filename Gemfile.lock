@@ -169,12 +169,17 @@ GEM
     ffi (1.9.18-x86-mingw32)
     font-awesome-rails (4.7.0.2)
       railties (>= 3.2, < 5.2)
+    geocoder (1.4.4)
     geonames (0.3.3)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
+    google_places (0.34.2)
+      httparty (>= 0.13.1, < 0.14.1)
     groupdate (3.2.0)
       activesupport (>= 3)
     hashie (3.5.6)
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
     i18n (0.8.6)
     image_info (1.1.2)
       image_size
@@ -243,6 +248,7 @@ GEM
     mini_portile2 (2.2.0)
     minitest (5.10.3)
     multi_json (1.12.1)
+    multi_xml (0.6.0)
     multipart-post (2.0.0)
     net-http-persistent (3.0.0)
       connection_pool (~> 2.2)
@@ -473,7 +479,9 @@ DEPENDENCIES
   execjs
   feedjira
   font-awesome-rails
+  geocoder
   geonames
+  google_places
   groupdate
   jbuilder
   jdbc-sqlite3
